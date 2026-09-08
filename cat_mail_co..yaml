@@ -1,0 +1,32 @@
+accent_colour: '#3584e4'
+essential_utilities:
+  bepinex:
+    name: BepInEx
+    creator: BepInEx
+    creator_link: https://github.com/BepInEx
+    enable_command: ''
+    launch_options: WINEDLLOVERRIDES='winhttp=n,b' %command%
+    source: https://builds.bepinex.dev/projects/bepinex_be/785/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.785%2B6abdba4.zip
+    utility_path: ""
+    version: 6.0.0-be.785
+  melonloader:
+    name: MelonLoader
+    creator: Lava Gang
+    creator_link: https://github.com/LavaGang
+    enable_command: ''
+    launch_options: WINEDLLOVERRIDES='version=n,b' %command%
+    source: https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.x64.zip
+    utility_path: ""
+    version: v0.7.3
+gog_id: ''
+mods_path:
+- description: The mods path for BepInEx mods.
+  name: BepInEx Mods
+  path: '{game_path}/BepInEx/plugins/'
+- description: The mods path for MelonLoader mods.
+  name: MelonLoader
+  path: '{game_path}/Mods'
+name: Cat Mail Co.
+nexus_id: catmailco
+steam_id: '4380490'
+wiki_link: ''
