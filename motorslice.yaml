@@ -5,8 +5,8 @@ nexus_id: motorslice
 accent_colour: '#ffb751'
 wiki_link: ''
 mods_path:
-- name: Default path
-  description: The default path where mods will be extracted to
+- name: Paks mods
+  description: "Used for Paks mods."
   path: '{game_path}/MotorSlice/Content/Paks/~mods'
 utilities: []
 steam_folder_name: MOTORSLICE
