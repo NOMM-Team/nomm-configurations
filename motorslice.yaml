@@ -1,0 +1,12 @@
+name: MOTORSLICE
+steam_id: '2830030'
+gog_id: '1547815003'
+nexus_id: motorslice
+accent_colour: '#ffb751'
+wiki_link: ''
+mods_path:
+- name: Default path
+  description: The default path where mods will be extracted to
+  path: '{game_path}/MotorSlice/Content/Paks/~mods'
+utilities: []
+steam_folder_name: MOTORSLICE
