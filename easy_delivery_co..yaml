@@ -1,0 +1,21 @@
+accent_colour: '#b4a4e0'
+essential_utilities:
+  bepinex:
+    creator: BepInEx
+    creator_link: https://github.com/BepInEx/BepInEx
+    enable_command: ''
+    launch_options: WINEDLLOVERRIDES='winhttp=n,b' %command%
+    name: BepInEx
+    source: https://github.com/BepInEx/BepInEx/releases/BepInEx_win_x64_5.4.23.5.zip
+    utility_path: ''
+    version: 5.4.23.5
+gog_id: '1186701134'
+mods_path:
+- description: Used for BepInEx plugins.
+  name: BepInEx plugins
+  path: '{game_path}/BepInEx/plugins'
+name: Easy Delivery Co.
+nexus_id: easydeliveryco
+steam_folder_name: Easy Delivery Co
+steam_id: '3293010'
+wiki_link: ''
