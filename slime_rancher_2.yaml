@@ -1,0 +1,33 @@
+name: Slime Rancher 2
+steam_id: '1657630'
+steam_folder_name: Slime Rancher 2
+gog_id: ''
+nexus_id: slimerancher2
+accent_colour: '#3584e4'
+wiki_link: ''
+mod_paths:
+- name: Default path
+  description: The default path where mods will be extracted to
+  path: '{game_path}/Mods'
+utilities:
+- name: MelonLoader
+  version: Latest
+  creator: Lava Gang
+  creator_link: https://github.com/LavaGang
+  source_type: github
+  source_url: https://github.com/LavaGang/MelonLoader
+  github_asset_regex: MelonLoader.x64.zip
+  deploy_to_game_files: true
+  deployment_path: /
+  executable_type: non-exec
+  launch_options: WINEDLLOVERRIDES='version=n,b' %command%
+- name: Starlight
+  version: Latest
+  creator: ThatFinn
+  creator_link: https://github.com/ThatFinn
+  source_type: github
+  source_url: https://github.com/ThatFinn/Starlight
+  github_asset_regex: Starlight.dll
+  deploy_to_game_files: true
+  deployment_path: Mods
+  executable_type: non-exec
