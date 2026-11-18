@@ -1,0 +1,12 @@
+name: Trepang2
+steam_id: '1164940'
+steam_folder_name: Trepang2
+gog_id: ''
+nexus_id: trepang2
+accent_colour: '#3d3846'
+wiki_link: ''
+mod_paths:
+- name: Default path
+  description: The default path where mods will be extracted to
+  path: '{game_path}/CPPFPS/Content/Paks/'
+utilities: []
