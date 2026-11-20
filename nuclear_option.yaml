@@ -1,0 +1,15 @@
+name: Nuclear Option
+steam_id: '2168680'
+steam_folder_name: Nuclear Option
+gog_id: ''
+nexus_id: ''
+accent_colour: '#3584e4'
+wiki_link: ''
+manager_name: Nuclear Option Mod Manager (NOMM)
+manager_link: https://github.com/Combat787/NOMM
+mod_paths:
+- name: Default path
+  description: The default path where mods will be extracted to
+  path: '{game_path}/'
+  extract_mod_archives: true
+utilities: []
