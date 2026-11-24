@@ -1,0 +1,28 @@
+name: Trepang2
+steam_id: '1164940'
+steam_folder_name: Trepang2
+gog_id: ''
+nexus_id: trepang2
+accent_colour: '#3d3846'
+wiki_link: ''
+mod_paths:
+- name: Default path
+  description: The default path where mods will be extracted to
+  path: '{game_path}/CPPFPS/Content/Paks/'
+- name: UE4SS mods
+  description: Used for UE4SS mods
+  path: '{game_path}/CPPFPS/Binaries/Win64/ue4ss/Mods'
+- name: Import folder Mods
+  description: Mods that go to the import folder
+  path: '{user_data_path}/drive_c/users/steamuser/AppData/Local/CPPFPS/Saved/SaveGames/Import'
+utilities:
+- name: RE-UE4SS
+  version: 4.0.0
+  creator: RE-UE4SS
+  creator_link: https://github.com/UE4SS-RE
+  source_type: direct
+  source_url: https://github.com/UE4SS-RE/RE-UE4SS/releases/download/v4.0.0/UE4SS_v4.0.0.zip
+  deploy_to_game_files: true
+  deployment_path: CPPFPS/Binaries/Win64
+  executable_type: non-exec
+  launch_options: WINEDLLOVERRIDES='dwmapi=n,b' %command%
